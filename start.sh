@@ -6,7 +6,7 @@
 #only build if jar file does not exist
 if [ ! -f /data/spigot.jar ]; then 
   echo "Download spigot jar file"
-  cp /spigot.jar /data/spigot.jar
+  wget -O /data/spigot.jar http://tcpr.ca/files/spigot/spigot-1.7.10-SNAPSHOT-b1657.jar
   cp /server.properties /data/server.properties
   chmod +x /data/spigot.jar
 fi
