@@ -1,5 +1,5 @@
 FROM nimmis/java:openjdk-8-jdk
-MAINTAINER MarVin <marvin1994pl@gmail.com>
+MAINTAINER Xierip <xierip@gmail.com>
 RUN apt-get update && apt-get clean all
 
 ADD    start.sh /start.sh
