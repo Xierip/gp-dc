@@ -12,4 +12,4 @@ if [ ! -f /data/spigot.jar ]; then
 fi
 
 cd /data
-java -Xms24M -Xmx3G -jar spigot.jar
+java -Xms$RamMin -Xmx$RamMax -jar spigot.jar
